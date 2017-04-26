@@ -1,0 +1,30 @@
+{
+    "name": "srv-server",
+    "version": "0.0.1",
+    "description": "Server functionality for server blueprint",
+    "license": "MIT",
+    "author": {
+        "name": "Aleksandras Novikovas",
+        "email": "Aleksandras.Novikovas@gmail.com"
+    },
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Aleksandras-Novikovas/srv-server.git"
+    },
+    "dependencies": {
+        "express": "^4.14.0",
+        "express-session": "^1.14.2",
+        "bunyan-middleware": "^0.6.0",
+        "multer": "^1.2.0",
+        "body-parser": "^1.15.2",
+        "body-parser-xml": "^1.1.0",
+        "srv-core": "git://github.com/Aleksandras-Novikovas/srv-core.git",
+        "srv-config": "git://github.com/Aleksandras-Novikovas/srv-config.git",
+        "srv-log": "git://github.com/Aleksandras-Novikovas/srv-log.git",
+        "srv-util": "git://github.com/Aleksandras-Novikovas/srv-util.git"
+    },
+    "devDependencies": {
+        "jsdoc": "^3.4.3"
+    }
+}
