@@ -1,6 +1,6 @@
 {
     "name": "srv-server",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Server functionality for server blueprint",
     "license": "MIT",
     "author": {
@@ -19,10 +19,10 @@
         "multer": "^1.2.0",
         "body-parser": "^1.15.2",
         "body-parser-xml": "^1.1.0",
-        "srv-core": "^0.0.1",
-        "srv-config": "^0.0.1",
-        "srv-log": "^0.0.1",
-        "srv-util": "^0.0.1"
+        "srv-core": "^1.0.0",
+        "srv-config": "^1.0.0",
+        "srv-log": "^1.0.0",
+        "srv-util": "^1.0.0"
     },
     "devDependencies": {
         "jsdoc": "^3.4.3"
